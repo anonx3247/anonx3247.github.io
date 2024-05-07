@@ -84561,8 +84561,8 @@ return new A.zG(new A.Bu(new A.x8(B.aJE,new A.UD(s,s,1/0,56),s),B.a_r,s),s)}}
 A.yL.prototype={
 aM(){this.bg()
 A.aW7()},
-N(a){var s=this,r=null,q=s.w,p=A.CD(A.jd("Auto-Complete: "+(s.d?"Auto-Complete":"Only Tab-Complete"),r,r,r,r,r,r),r,new A.a4I(s),r),o=t.p
-return A.t6(A.b([B.ln,new A.zJ(s.gai1(),s.gXc(),s.galj(),q,s.gXh(),r),B.aB1,A.uG(A.b([p,A.CD(A.jd("Raw LaTeX: "+(q?"Show":"Hide"),r,r,r,r,r,r),r,new A.a4J(s),r)],o),B.bn,B.C0,B.dm,r),B.aJH,B.ln,B.al6,B.ln,new A.BI(s.gXO(),r),B.ln,A.as6(new A.xu(s.gXf(),s.gak3(),s.gXl(),r),1)],o),B.bn,B.c1,B.dm)},
+N(a){var s=this,r=null,q=s.w,p=A.CD(A.jd(s.d?"Auto-Complete On":"Auto-Complete: Tab-Complete Only",r,r,r,r,r,r),r,new A.a4I(s),r),o=t.p
+return A.t6(A.b([B.ln,new A.zJ(s.gai1(),s.gXc(),s.galj(),q,s.gXh(),r),B.aB1,A.uG(A.b([p,A.CD(A.jd(q?"Hide LaTeX":"Show LaTeX",r,r,r,r,r,r),r,new A.a4J(s),r)],o),B.bn,B.C0,B.dm,r),B.aJH,B.ln,B.al6,B.ln,new A.BI(s.gXO(),r),B.ln,A.as6(new A.xu(s.gXf(),s.gak3(),s.gXl(),r),1)],o),B.bn,B.c1,B.dm)},
 vy(){var s,r,q=A.b([],t.vN)
 for(s=0;s<12;++s){r=B.and[s]
 if(this.lL(r).length!==0)q.push(r)}return q},
